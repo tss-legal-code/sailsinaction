@@ -1,0 +1,10 @@
+<div ng-controller="profilePageController" ng-cloak ng-hide="loading">
+  <div class="col-md-3">
+    <img class="gravatarImage" ng-src={{me.preview.gravatarURL}} />
+  </div>
+  <div class="col-md-3" >
+    <h1>{{me.preview.username}}</h1>
+    <h3> <a href="mailto:{{me.preview.email}}">{{me.preview.email}}</a></h3>
+    <h4>{{me.preview.aboutmyself}}</h4>
+  </div>
+</div>
